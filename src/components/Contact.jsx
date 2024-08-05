@@ -1,17 +1,17 @@
 function Contact() {
 
     return (
-        <div className="flex flex-col text-center justify-around items-center md:h-[80vh] mt-[180px] md:mt-24" id="contact">
+        <div className="flex flex-col text-center justify-around items-center md:h-[80vh] mt-96 md:mt-24" id="contact">
             <div>
                 <p className="text-base text-[#555555] text-center my-2">Get in Touch</p>
                 <h1 className="text-3xl md:text-5xl text-center font-medium my-2">Contact Me</h1>
-                <div className="flex flex-wrap mx-auto gap-3 md:gap-10 mt-10 border-[2px] border-[#a3a3a3] p-5 md:p-8 rounded-[30px] w-[80%] items-center justify-center md:w-auto mb-28">
+                <div className="flex flex-wrap mx-auto gap-3 md:gap-10 mt-10 border-[2px] border-[#a3a3a3] p-5 md:p-8 rounded-[30px] w-[90%] items-center justify-center md:w-auto mb-28">
                     <div className="flex items-center gap-4 ">
-                        <i class="fa-solid fa-envelope fa-2xl"></i>
+                        <i className="fa-solid fa-envelope fa-xl"></i>
                         <p><a href="mailto:pawankumarr0403@gmail.com" className="hover:border-b-[3px] hover:text-gray-400 ease-in-out text-base md:text-xl">pawankumarr0403@gmail.com</a></p>
                     </div>
                     <div className="flex items-center gap-4">
-                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                        <i className="fa-brands fa-linkedin fa-xl"></i>
                         <p><a href="https://www.linkedin.com/in/pawankumar0403/" className="hover:border-b-[3px] hover:text-gray-400 ease-in-out text-base md:text-xl">LinkedIn</a></p>
                     </div>
                 </div>

@@ -4,10 +4,10 @@ import p3 from "../assets/images/project-3.png";
 
 function Work() {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] my-10 md:my-0" id="work">
+    <div className="flex flex-col justify-center items-center h-[100vh] my-96 mb-10 md:mb-0 md:my-0" id="work">
       <p className="text-base text-[#555555] text-center my-2">Browse My Recent</p>
       <h1 className="text-3xl md:text-5xl text-center font-medium my-2">Projects</h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 items-center justify-center mt-10 w-[85%] md:w-[80%]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-center mt-10 w-[85%] md:w-[75%]">
         <div className="border-[2px] border-[#a3a3a3] p-6 rounded-3xl bg-[#FAFAFA]">
           <img src={p1} alt="Nostra E-Commerce" className="w-32 md:w-72 h-32 md:h-72 rounded-[30px] mx-auto" />
           <h1 className="text-xl md:text-3xl font-medium text-center my-4">Nostra E-Commerce</h1>
@@ -26,7 +26,7 @@ function Work() {
           </div>
         </div>
 
-        <div className="border-[2px] border-[#a3a3a3] p-6 rounded-3xl bg-[#FAFAFA] col-span-2 md:col-span-1">
+        <div className="border-[2px] border-[#a3a3a3] p-6 rounded-3xl bg-[#FAFAFA]">
           <img src={p3} alt="Nostra E-Commerce" className="w-[90%] md:w-72 h-[90%] md:h-72 rounded-[30px] mx-auto" />
           <h1 className="text-xl md:text-3xl font-medium text-center my-4">Nostra E-Commerce</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-1 mt-3 text-center justify-center">
