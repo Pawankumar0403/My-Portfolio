@@ -4,7 +4,7 @@ import p3 from "../assets/images/project-3.png";
 
 function Work() {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] my-96 mb-10 md:mb-0 md:my-0" id="work">
+    <div className="flex flex-col justify-center items-center h-[100vh] my-80 mb-10 md:mb-0 md:my-0" id="work">
       <p className="text-base text-[#555555] text-center my-2">Browse My Recent</p>
       <h1 className="text-3xl md:text-5xl text-center font-medium my-2">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-center mt-10 w-[85%] md:w-[75%]">
