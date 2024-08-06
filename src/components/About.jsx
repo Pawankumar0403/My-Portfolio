@@ -2,7 +2,7 @@ import abt from "../assets/images/about.png"
 
 function About() {
     return (
-        <div className="flex flex-col justify-center text-center items-center h-[100vh] mt-[150px] md:my-0" id="about">
+        <div className="flex flex-col justify-center text-center items-center h-[100vh] mt-[150px] md:my-0 relative" id="about">
             <p className="text-base text-[#555555] text-center my-2">Get To Know More</p>
             <h1 className="text-3xl md:text-5xl text-center font-medium my-2">About Me</h1>
             <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-2 my-10 md:w-[80%] mx-auto" >
@@ -18,6 +18,7 @@ function About() {
                         I aim to contribute effectively to any development team and project.</p>
                 </div>
             </div>
+            <a href="#skill" className="absolute bottom-14 right-20 hidden md:block"><i className="fa-solid fa-angles-down fa-2xl"></i></a>
         </div>
 
     )

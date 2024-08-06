@@ -3,7 +3,7 @@ import cm from "../assets/images/checkmark.png"
 function Skill() {
 
     return (
-        <div className="flex flex-col justify-center items-center h-[100vh] mt-[155px] md:my-0" id="skill">
+        <div className="flex flex-col justify-center items-center h-[100vh] mt-[155px] md:mt-0 relative" id="skill">
             <p className="text-base text-[#555555] text-center my-2">Explore My</p>
             <h1 className="text-3xl md:text-5xl text-center font-medium my-2">Skills</h1>
 
@@ -105,7 +105,7 @@ function Skill() {
 
                 </div>
             </div>
-
+            <a href="#work" className="absolute bottom-14 right-20 hidden md:block"><i className="fa-solid fa-angles-down fa-2xl"></i></a>
         </div>
 
     )
