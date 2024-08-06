@@ -33,7 +33,7 @@ function Home() {
             <img
                 src={dp}
                 alt="Profile"
-                className="fluid-image w-[230px] h-[230px] md:w-[400px] md:h-[400px] rounded-[50%]"
+                className="fluid-image w-[230px] h-[230px] md:w-[400px] md:h-[400px] rounded-[50%] z-10"
                 style={{
                     transform: `rotateX(${transform.y}deg) rotateY(${transform.x}deg)`,
                 }}
