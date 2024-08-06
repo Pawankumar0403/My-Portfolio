@@ -1,7 +1,7 @@
 function Contact() {
 
     return (
-        <div className="flex flex-col text-center justify-around items-center md:h-[80vh] mt-[340px] md:mt-24" id="contact">
+        <div className="flex flex-col text-center justify-around items-center md:h-[80vh] mt-[530px] md:mt-24" id="contact">
             <div>
                 <p className="text-base text-[#555555] text-center my-2">Get in Touch</p>
                 <h1 className="text-3xl md:text-5xl text-center font-medium my-2">Contact Me</h1>

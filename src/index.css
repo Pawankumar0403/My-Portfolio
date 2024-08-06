@@ -2,14 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;}
+  font-family: "Poppins", sans-serif;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+.fluid-image {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  will-change: transform, box-shadow;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
