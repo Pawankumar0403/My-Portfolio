@@ -50,7 +50,7 @@ function Home() {
                 />
                 <div className="flex gap-5 my-4 justify-center">
                     <a
-                        href="/Pawan Resume-2024.pdf"
+                        href="/Pawan Kumar Resume.pdf"
                         target="_blank"
                         className="border-[2px] border-[#3b3a3a] p-3 rounded-3xl font-medium text-[13px] hover:bg-[#3b3a3a] hover:text-white ease-in-out transition-all"
                     >
